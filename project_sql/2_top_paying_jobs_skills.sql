@@ -26,6 +26,9 @@ order by
       salary_year_avg desc
 limit 10
 
+-- 2 way solve
+
+
 with top_paying_jobs as(
       select job_postings_fact.job_id,
        job_postings_fact.job_title,
